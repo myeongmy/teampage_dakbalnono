@@ -1,0 +1,296 @@
+
+#nav_section{
+    height: 70px;
+    width: 100%;
+}
+
+#nav_section ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 70px;
+    background-color: #780808;
+    z-index:1;
+}
+
+#nav_section li{
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav_menu {
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #D3BDBD;
+    font-weight: bold;
+}
+
+.logo{
+    font-family: 'Knewave', cursive !important;
+}
+
+
+
+
+
+#header {
+    width: 100%;
+}
+
+.sub_title{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.topimg {
+    background-image: url("https://54disneyreviews.files.wordpress.com/2015/08/chicken-run20.jpg");
+    height: 100vh;
+    background-size: cover;
+    filter: grayscale(1);
+    text-align: center;
+    vertical-align:middle;
+    
+}
+
+.topimg:hover{
+    filter: grayscale(0.3);
+    transition: 0.5s ease;
+}
+
+.img-cover{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.7);                                                                 
+   z-index:1;
+}
+
+.top_wrap {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    padding-top: 200px;
+    border: 0px solid #000;
+    line-height: 150px;
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.top_title {
+    text-align: center;
+    z-index:2;
+    line-height: 100px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+.top_main {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    z-index:2;
+}
+
+.top_intro{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    z-index:2;
+}
+
+.title_sub{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+
+/*근데,,,,하,,,, 이걸 꼭 모두,,px 입력해서 해야할가,,,,,,,,,,환멸,,,,
+이렇게 하면 안되는거 같은뎈ㅋㅋ 다른 방법을 모르게성... 저렇게 하면 나오긴 나온댜..
+그치,,,근데 가운데 정렬하는 방법이 완전 여러개야,,,,
+그 우리 맨 처음 세션 때 가운데 정렬하는 방법 배웟자나 근데 그거 왜 안되지?????? 화난다
+ㅋㅋㅌㅋㅌㅋㅋㅌㅋㅋㅋ,,,,다까먹엇어 흑흑
+https://blog.naver.com/skydoor2014/220562850945
+맞아 그리고 다른 방법 써보려는데 안대,,,
+하,,,,,환멸,,,
+오옹 저거 들어가보께 웅!
+엄청 간단하넼ㅋㅋㅋㅋㅋ근데 왜 안되는 것이여
+하아아아아아아아아ㅏ아야갸갸갸갸ㅑ갸갹
+ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+html에서 section안에 div해서 그런가,,?? 그게 상관이 있을까??
+이쯤되면 html이 문제같아,,
+그거는 상관없는거 같앙...근데 진짜 css는 더이상 문제가 없는거는 맞는듯 ㅋㅋㅋㅋㅋ
+background-image써서그런가????
+ 튜터님 옆에 앉혀놓고싶당..
+ ㅋㅋㅋㅋ흑흑흑,,,,b근데 background-image 안하면은 글자를 위에 씌울 수는 없게지... 아마 내가
+ 찾아봤을 때 다 background image 하래서 따라서 했는데 ㅎ그흑흑흑흑흑,,,
+ ㅋㅋㅋㅋㅋㅋㅋㅋㅋ으음...그럴거같긴행....background이거는 크기 지정 안해준거지??
+ height: vh이게 뭐징..?
+ 그게 아마 view height 인가 그럴걸...
+ .top_title{
+         position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 350px;
+    height: 60px;
+ }
+ 
+ .top_intro{
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    width: 800px;
+    height: 60px;
+ 
+ ??
+ 
+ dkdhkdf꺄꺄꺄꺄꺄ㅑ꺄꺄꺄ㅑㄲ
+ 대충성공하고잇서ㄴ
+ ㅂ맞는지는 모르겟지만 흑흑흫그흑흑ㅎㄱ
+ 헐대박 천재야천재 ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ border만 지우면 되겟당
+ 
+ 맨 밑에 footer부분 추가햇어!
+ 꺄아아아아ㅏㅇ>_<고마어
+ 진짜 수고햇오ㅠㅠㅠㅠㅠㅠㅠㅠ이제 성원어언니 사진 넣어주는 거 기다리면 되겟당*^^*
+ 꺄아아아 고생햇댜ㅏ아아!important!important!important
+*/
+
+
+
+
+hr {
+    max-width: 100px;
+    border-color: #780808;
+    border-width: 2px;
+}
+
+
+#about_section{
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+.about_us{
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    
+}
+
+#about_section p{
+    line-height: 2.2rem;
+    font-size: 1.0rem;
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.sub_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+#members_section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+#members{
+    margin-top: 8rem;
+    position: relative;
+}
+
+.member_img{
+    width: 20.5%;
+    float: left;
+    filter: grayscale(0.9);
+    margin: 10px;
+    
+}
+.member_img:hover{
+    filter: grayscale(0);
+    transition: 0.5s ease;
+}
+.each_info{
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 20.5%;
+    text-align: center;
+    float: left;
+    letter-spacing: 4px;
+    font-family: 'Gothic A1', sans-serif;
+}
+.each_intro{
+    margin: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 20.5%;
+    text-align: center;
+    float: left;
+}
+.each_intro p{
+    width: 80%;
+    text-align: left;
+    float: left;
+    margin: 0 auto;
+    line-height: 140%;
+    text-indent: 30px;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+#history_section{
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    float: left;
+}
+.history{
+    padding: 8rem;
+}
+#history_section.p{
+    line-height: 2;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.history_img{
+    width:49%;
+    padding:0.1rem;
+    float: left;
+}
+
+#footer_section{
+   
+    float: left;
+    padding: 1em;
+    color: white;
+    background-color: #780808;
+    text-align: center;
+    width: 100%;
+}

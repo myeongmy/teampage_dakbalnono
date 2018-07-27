@@ -1,0 +1,11 @@
+header {
+    background-color:#720808
+}
+
+font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('NanumGothic'), url(https://fonts.gstatic.com/s/nanumgothic/v7/PN_3Rfi-oW3hYwmKDpxS7F_z-9LZxnth_Y0CO7Jj27F-wLHic9mYxL44ph6ITFARiCp0cmG2CgiiAKU.2.woff2) format('woff2');
+  unicode-range: U+00A2, U+00A4, U+00A8, U+00AA, U+00AC, U+00B9, U+00BC-00BE, U+00C0, U+00C2, U+00C6, U+00C8, U+00CA-00CB, U+00CE-00D0, U+00D4, U+00D8-00D9, U+00DB, U+00DE-00DF, U+00E6, U+00EE-00F0, U+00F7, U+00FB, U+00FE-00FF, U+0126-0127, U+0132-0133, U+0138, U+013F-0141, U+0149-014B, U+0166-0167, U+02BC, U+02C7, U+02D8-02D9, U+02DB, U+0391-0394, U+0396-03A1, U+03A3-03A9, U+03B3, U+03B6, U+03B8, U+03BE, U+03C0-03C1, U+03C4-03C8, U+2010, U+2016, U+201B, U+201F, U+2021, U+2034-2036, U+203E, U+2042, U+2074, U+207A-207F, U+2081-2084, U+2109, U+2116, U+2121, U+2126, U+212B, U+2153-2154, U+215B-215E, U+2165-2169, U+2170-2179, U+2195-2196, U+2199, U+21B0-21B4, U+21BC, U+21C0, U+21C4-21C5, U+21CD;
+}
